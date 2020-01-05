@@ -3,7 +3,7 @@ A TCP chat program that was written in C.
 
 # Build instructions
 
-* Usage instructions for the TCP chat program written in C.
+Usage instructions for the TCP chat program written in C.
 
 1 - Open up a terminal window and navigate to the folder containing the 2 .c files (client.c and server.c)
 
