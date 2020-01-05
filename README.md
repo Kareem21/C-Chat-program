@@ -16,18 +16,18 @@ A TCP chat program that was written in C.
 
 
 
-**How to view the help message 
+**How to view the help message**
 
 - In a terminal window type ./client -h
 
-**How to quit 
+**How to quit**
 
 Use the Ctrl C escape sequence while running server, then do the same for client.
-Note: If you quit the server, make sure you also quit the client as it will keep running it the background if you don't. 
+**Note:** If you quit the server, make sure you also quit the client as it will keep running it the background if you don't. 
 
 If you quit and run the program again, make sure to use a different port (you could also wait till it's clear) . 
 
-**Potential problems
+**Potential problems**
 
 Use with -p first then -s preferably, it may or may not work when you do -s and THEN -p
 
@@ -35,7 +35,7 @@ Use with -p first then -s preferably, it may or may not work when you do -s and 
 Line 63 in chat.c tells the server which address it's waiting on
 Port is hardcoded to 3007 on line 64 in chat.c
 
-**Guidance for this programming assignment:
+**Guidance for this programming assignment:**
 
 - Beej's networking guide
 - Stackoverflow (the function I used for validating IP to make sure it's valid IPV4 was from a stackoverflow question)
